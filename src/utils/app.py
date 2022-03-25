@@ -41,7 +41,7 @@ class ChromeAuto:
             sleep(2)
             self.chrome.find_element(By.CSS_SELECTOR, ".jss105").click()
             self.chrome.find_element(By.CSS_SELECTOR, ".jss105").click()
-
+            sleep(2)
             self.chrome.find_element(By.CSS_SELECTOR, ".jss91").click()
             
         except Exception as e:
