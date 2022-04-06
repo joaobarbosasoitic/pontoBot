@@ -31,6 +31,7 @@ class ChromeAuto:
 
 
     def exit(self):
+        sleep(5)
         self.chrome.quit()
 
     def registra_ponto(self, matricula, senha):
@@ -55,5 +56,6 @@ if __name__ == '__main__':
     chrome.acessa('https://www.ahgora.com.br/novabatidaonline/?defaultDevice=a265669')
     sleep(1)
     chrome.registra_ponto(matricula, senha)
+    chrome.exit()
 
     
